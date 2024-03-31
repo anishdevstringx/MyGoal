@@ -1,0 +1,14 @@
+set selenium speed    2 seconds
+sleep    2
+set selenium timeout    10 seconds
+wait until page contains    Transactions
+set selenium implicit wait    10 seconds
+
+
+How can you use tagging in robot framework
+[Tags]    regression    sanity    Smoke -- Multiple taggs implementation
+[Tags]    regression    -- Single Tag implementation
+robot -i snaity TestCases\*.robot  -- How can you run a single tag
+robot -i regression -i snaity TestCases\*.robot -- multiple tags execution
+how can you include one tag and exclude another tag s
+robot -e regression -i snaity TestCases\*.robot -- multiple tags execution

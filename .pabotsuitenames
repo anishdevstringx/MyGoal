@@ -1,0 +1,8 @@
+datasources:c8604bede39d7d31e4c7179c661f03a4e6238b0b
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:34a40f370c5fc29ea180b08cf406b2957901f8d0
+--suite Suites.CreateAccountTest
+--suite Suites.DashboardTest
+--suite Suites.LoginTest
+--suite Suites.ManageAccountTest
